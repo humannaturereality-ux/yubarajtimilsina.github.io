@@ -10,13 +10,13 @@ import {
 import { SiTiktok } from "react-icons/si";
 
 const socialLinks = [
-  { icon: Youtube, href: "https://youtube.com", label: "YouTube", color: "hover:text-red-500" },
-  { icon: Github, href: "https://github.com", label: "GitHub", color: "hover:text-gray-600 dark:hover:text-gray-300" },
-  { icon: Facebook, href: "https://facebook.com", label: "Facebook", color: "hover:text-blue-600" },
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram", color: "hover:text-pink-500" },
-  { icon: SiTiktok, href: "https://tiktok.com", label: "TikTok", color: "hover:text-foreground" },
-  { icon: MessageCircle, href: "https://wa.me", label: "WhatsApp", color: "hover:text-green-500" },
-  { icon: Mail, href: "mailto:contact@hnrmovement.org", label: "Email", color: "hover:text-primary" },
+  { icon: Youtube, href: "https://youtube.com", label: "YouTube" },
+  { icon: Github, href: "https://github.com", label: "GitHub" },
+  { icon: Facebook, href: "https://facebook.com", label: "Facebook" },
+  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
+  { icon: SiTiktok, href: "https://tiktok.com", label: "TikTok" },
+  { icon: MessageCircle, href: "https://wa.me", label: "WhatsApp" },
+  { icon: Mail, href: "mailto:contact@hnrmovement.org", label: "Email" },
 ];
 
 export function SocialMediaSection() {
@@ -36,25 +36,28 @@ export function SocialMediaSection() {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4">
-          {socialLinks.map((social) => (
-            <Button
-              key={social.label}
-              variant="outline"
-              size="icon"
-              className={`h-12 w-12 rounded-full border-border ${social.color} transition-colors`}
-              asChild
-              data-testid={`button-social-${social.label.toLowerCase()}`}
-            >
-              <a
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={social.label}
+          {socialLinks.map((social) => {
+            const IconComponent = social.icon;
+            return (
+              <Button
+                key={social.label}
+                variant="outline"
+                size="icon"
+                className="rounded-full"
+                asChild
+                data-testid={`button-social-${social.label.toLowerCase()}`}
               >
-                <social.icon className="h-5 w-5" />
-              </a>
-            </Button>
-          ))}
+                <a
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.label}
+                >
+                  <IconComponent className="h-5 w-5" />
+                </a>
+              </Button>
+            );
+          })}
         </div>
       </div>
     </section>
