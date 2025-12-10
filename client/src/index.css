@@ -43,9 +43,16 @@
   --chart-3: 45 78% 45%;
   --chart-4: 260 70% 48%;
   --chart-5: 140 68% 40%;
-  --font-sans: Open Sans, sans-serif;
-  --font-serif: Georgia, serif;
-  --font-mono: Menlo, monospace;
+  --font-sans: 'Inter', 'DM Sans', sans-serif;
+  --font-serif: 'Libre Baskerville', Georgia, serif;
+  --font-mono: 'JetBrains Mono', Menlo, monospace;
+  --earth-green: 145 47% 21%;
+  --terracotta: 355 45% 58%;
+  --cosmic-indigo: 236 35% 28%;
+  --cosmic-purple: 252 32% 62%;
+  --warm-cream: 43 40% 97%;
+  --urgency-dark: 0 0% 10%;
+  --urgency-amber: 33 100% 58%;
   --radius: .5rem;
   --shadow-2xs: 0px 2px 0px 0px hsl(30 4% 12% / 0.00);
   --shadow-xs: 0px 2px 0px 0px hsl(30 4% 12% / 0.00);
@@ -170,8 +177,50 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-earth-green {
+    background-color: hsl(var(--earth-green));
+  }
+
+  .bg-terracotta {
+    background-color: hsl(var(--terracotta));
+  }
+
+  .bg-cosmic-indigo {
+    background-color: hsl(var(--cosmic-indigo));
+  }
+
+  .bg-cosmic-purple {
+    background-color: hsl(var(--cosmic-purple));
+  }
+
+  .bg-warm-cream {
+    background-color: hsl(var(--warm-cream));
+  }
+
+  .bg-urgency-dark {
+    background-color: hsl(var(--urgency-dark));
+  }
+
+  .text-urgency-amber {
+    color: hsl(var(--urgency-amber));
+  }
+
+  .border-urgency-amber {
+    border-color: hsl(var(--urgency-amber));
   }
 }
 
