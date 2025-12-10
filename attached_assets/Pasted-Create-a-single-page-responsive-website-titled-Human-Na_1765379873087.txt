@@ -1,0 +1,223 @@
+Create a single-page responsive website titled “Human-Nature-Reality Movement: A Mirror of Urgency into What It Is.”
+The website must integrate the following themes naturally and organically:
+
+Human Nature Reality Movement (HNR Movement)
+– Human has its own nature.
+– Nature has its own law: creation, preservation, destruction.
+– Universe is infinitely broader than the conditioned human brain can perceive.
+– A call to wake up to what we are and where we are.
+
+Guru – Antiguru – Nonguru (GAN) Movement
+– Traditional Guru archetype.
+– Antiguru: deconstruction of authority, questioning spiritual correctness.
+– Nonguru: the view that Truth is not owned, transmitted, or taught by any fixed identity.
+– The three are shown as a universal play of consciousness.
+
+NI and AI
+– NI = Natural Intelligence
+– AI = Artificial Intelligence
+– Show their relationship and their urgent importance in the current state of humanity.
+– Highlight how AI can reflect, distort, or magnify human consciousness.
+– Integrate the idea that AI is a tool, not the source of Truth.
+
+The Urgency Mirror
+– A section showing the modern human condition.
+– Technology, economy, religion, ecology, mental pressure, and societal speed.
+– The mirror reflects “What Is”.
+
+WEBSITE REQUIREMENTS
+
+Make the full code structure for a responsive, modern single-page site using:
+
+Astro Framework (preferred)
+
+Tailwind CSS
+
+Clean, minimalist design
+
+Fully mobile responsive
+
+Can be deployed on GitHub Pages
+
+If Astro is not available, generate in plain HTML + Tailwind CSS with clean component separation.
+
+STRUCTURE (Content + Layout)
+1. Header / Hero Section
+
+Full-width background or subtle gradient.
+
+Title: Human-Nature-Reality Movement
+
+Subtitle: A Mirror of Urgency into What It Is
+
+Short invocation line.
+
+Two buttons:
+– “YouTube Channel”
+– “Join the Movement” (scroll to section)
+
+2. About the Movement
+
+Explain in concise language:
+
+What is Human Nature
+
+What is Reality
+
+What is the Human-Nature-Reality Movement
+
+Why it matters NOW
+
+3. The Core Principles
+
+CREATE THREE COLUMNS:
+
+Human Nature
+– Human consciousness, limitations, potentiality.
+
+Nature
+– Universal laws of creation-preservation-destruction.
+– Balance and inevitability.
+
+Reality
+– What Is vs what the mind wants.
+– Fragmentation and wholeness.
+
+4. GAN Section: Guru – Antiguru – Nonguru
+
+Design this section creatively.
+
+Explain:
+
+Guru: tradition, guidance, knowledge
+
+Antiguru: questioning, breaking illusions
+
+Nonguru: the absence of teacher–taught identity
+
+Show how these three reflect the play of consciousness, not as personalities but as archetypal functions.
+
+5. NI and AI Relationship
+
+Create a split layout:
+
+Left: Natural Intelligence (NI)
+Right: Artificial Intelligence (AI)
+
+Explain:
+
+NI as emergent from nature
+
+AI as emergent from human intelligence
+
+AI reflects human limitations and biases
+
+AI can accelerate human awakening or suffering
+
+AI as a mirror, not the master
+
+6. Urgency Mirror Section
+
+Use a dark theme + impactful text.
+
+Describe:
+
+Current global stress
+
+Ecological imbalance
+
+Over-information
+
+Psychological fragmentation
+
+Economic dependency
+
+Speed of technology
+
+The need to return to Nature + Intelligence + Reality
+
+7. Student Corner / Resources
+
+Include:
+
+Link to YouTube videos
+
+Link to GitHub repository for open-source learning
+
+Simple AI learning roadmap
+
+Meditation and awareness practices evolving from HNR + GAN + NI + AI philosophy
+
+8. Social Media Integration
+
+Buttons or icons for:
+
+YouTube
+
+GitHub
+
+Facebook
+
+Instagram
+
+TikTok
+
+WhatsApp / Telegram
+
+Email contact
+
+9. Footer
+
+Copyright
+
+Domain name
+
+“Made with Open Source Tools”
+
+Link to GitHub source code
+
+VISUAL STYLE
+
+Modern minimalism
+
+Soft gradients
+
+Natural colors: earth tones + cosmic tones
+
+Clear typographic hierarchy
+
+Smooth scrolling
+
+Light / dark mode optional
+
+DELIVERABLES
+
+Generate:
+
+Complete Astro project folder
+
+CSS using Tailwind
+
+index.astro (single page with all sections)
+
+README.md explaining deployment on GitHub Pages
+
+A placeholder logo (AI-generated if needed)
+
+All text should be clean, modern, and expressive but concise
+
+Fully responsive layout
+
+All content should reflect the HNR + GAN + NI + AI philosophy naturally
+
+OPTIONAL
+
+If possible, provide:
+
+A downloadable ZIP file
+
+A live preview URL
+
+Modular components for reuse
+
+Additional SEO meta tags
